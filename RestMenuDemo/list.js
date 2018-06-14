@@ -5,7 +5,7 @@ exports.handler = function (event, context, callback) {
 	let response = {
 		"statusCode": 200,
 		"headers": {
-			"headerName": "headerValue"
+			"Access-Control-Allow-Origin": "*"
 		},
 		"body": "..."
 	};
